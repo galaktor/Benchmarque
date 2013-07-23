@@ -27,8 +27,9 @@
 	<file src="src\Benchmarque.Tests\bin\Release\Benchmarque.Tests.pdb" target="lib\net40" />
     
 	<file src="src\Benchmarque.Console\bin\x64\Release\Benchmarque.Console.exe" target="lib\net40\Benchmarque.Console.x64.exe" />
+	<file src="src\Benchmarque.Console\bin\x64\Release\Benchmarque.Console.exe.config" target="lib\net40\Benchmarque.Console.x64.exe.config" />
 	<file src="src\Benchmarque.Console\bin\x86\Release\Benchmarque.Console.exe" target="lib\net40\Benchmarque.Console.x86.exe" />
-	<file src="src\Benchmarque.Console\bin\x64\Release\Benchmarque.Console.exe.config" target="lib\net40" />
+	<file src="src\Benchmarque.Console\bin\x64\Release\Benchmarque.Console.exe.config" target="lib\net40\Benchmarque.Console.x86.exe.config" />
 	
 	<file src="src\**\*.cs" target="src" />
 	
