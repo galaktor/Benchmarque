@@ -11,7 +11,7 @@
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<description>Benchmarque, a code benchmarking library and runner</description>
 		<language>en-US</language>
-		<releaseNotes>from fork at https://github.com/galaktor/Benchmarque</releaseNotes>
+		<releaseNotes>built by Raphael Estrada from fork at https://github.com/galaktor/Benchmarque</releaseNotes>
   </metadata>
   <files>
     <file src="src\Benchmarque\bin\Release\Benchmarque.dll" target="lib\net40" />
