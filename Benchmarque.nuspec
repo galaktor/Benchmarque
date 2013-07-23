@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>Benchmarque</id>
+		<version>0.2.0</version>
+		<title>Benchmarque</title>
+		<authors>Chris Patterson</authors>
+		<owners>Chris Patterson</owners>
+		<licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+		<projectUrl>http://github.com/PhatBoyG/Benchmarque</projectUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>Benchmarque, a code benchmarking library and runner</description>
+		<language>en-US</language>
+		<releaseNotes>from fork at https://github.com/galaktor/Benchmarque</releaseNotes>
+  </metadata>
+  <files>
+    <file src="src\Benchmarque\bin\Release\Benchmarque.dll" target="lib\net40" />
+    <file src="src\Benchmarque\bin\Release\Benchmarque.pdb" target="lib\net40" />
+	
+	<file src="src\Benchmarque.Runtime\bin\Release\Benchmarque.Runtime.dll" target="lib\net40" />
+	<file src="src\Benchmarque.Runtime\bin\Release\Benchmarque.Runtime.pdb" target="lib\net40" />
+    
+	<file src="src\Benchmarque.Sample\bin\Release\Benchmarque.Sample.dll" target="lib\net40" />
+	<file src="src\Benchmarque.Sample\bin\Release\Benchmarque.Sample.pdb" target="lib\net40" />
+
+	<file src="src\Benchmarque.Tests\bin\Release\Benchmarque.Tests.dll" target="lib\net40" />
+	<file src="src\Benchmarque.Tests\bin\Release\Benchmarque.Tests.pdb" target="lib\net40" />
+    
+	<file src="src\Benchmarque.Console\bin\x64\Release\Benchmarque.Console.exe" target="lib\net40\Benchmarque.Console.x64.exe" />
+	<file src="src\Benchmarque.Console\bin\x86\Release\Benchmarque.Console.exe" target="lib\net40\Benchmarque.Console.x86.exe" />
+	<file src="src\Benchmarque.Console\bin\x64\Release\Benchmarque.Console.exe.config" target="lib\net40" />
+	
+	<file src="src\**\*.cs" target="src" />
+	
+  </files>
+</package>
